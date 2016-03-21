@@ -41,8 +41,8 @@ em{
 
 /* content site 
 =================== */
-.content-site{
-	background: #ccc;
+.content-site,footer{
+	color: #ccc;
 	margin: 60px;
 }
 
