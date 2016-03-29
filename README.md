@@ -1,12 +1,8 @@
 # Mezzanine Clone UI
 
-	Mezzanine Clone UI is an clone of  [`Mezzanine`](http://mezzanine.jupo.org/). This project helps you understand more about Html and Css.
+	Mezzanine Clone UI is an clone of  [Mezzanine](http://mezzanine.jupo.org/). This project helps you understand more about Html and Css.
 
 ## Installation
-
-TODO: Describe the installation process
-
-## Usage
 
 1. Checkout from https://github.com/namquang/TrainHtmlCSS.git
 2. Go to TrainHtmlCSS folder double click index.html to run it
@@ -22,7 +18,7 @@ TODO: Describe the installation process
 	
 2. Add any file changed git add file-name
   ```
-	$ git add <file-name>
+	$ git add file-name
   ```
 	
 3. Commit your change git commit -m "Update file-name"
@@ -32,7 +28,7 @@ TODO: Describe the installation process
 	
 4. Push your feature branch to server git push origin your-feature-name
   ```
-	$ git push origin <branch>
+	$ git push origin branch
   ```
 
 ## History
