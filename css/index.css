@@ -39,6 +39,11 @@ h3{
 	padding: 70px 25px 20px 65px;
 }
 
+label{
+	font-size:14px;
+	font-weight:normal;
+}
+
 .left {
 	float:left;
 }
@@ -88,6 +93,7 @@ header .header-right{
 .header-right .header-right-group-bt{
 	margin-top:50px;
 }
+
 .header-right .login{
 	font-weight:bold;
 	font-size:14px;
@@ -97,6 +103,7 @@ header .header-right{
 	color:black;
 	padding: 14px 45px 14px 45px;
 }
+
 /* line */
 .line-vertical{
 	width:100%;
@@ -108,11 +115,16 @@ header .header-right{
 
 /* cont site body */
 .content-site-body{
-	margin-top:30px;
+	margin-top:55px;
 }
+
 /* body content left */
 .content-site-body .body-left{
 	width:70%;
+}
+
+.body-left .body-left-overview{
+	margin-bottom: 20px;
 }
 
 .body-left .feature-content{
@@ -120,7 +132,7 @@ header .header-right{
 	height:210px;
 	border-radius: 8px;
 	background: #E5E2DE;
-	margin-top:20px;
+	margin:20px 0px;
 	padding:20px 15px 20px 17px ;
 	position: relative;
 }
@@ -166,11 +178,7 @@ header .header-right{
 /* body-left-love*/
 .body-left .body-left-love{
 	width:100%;
-	margin-top:20px;
-}
-
-.body-left-love .list-love{
-	
+	margin:20px 0px;
 }
 
 .body-left-love .list-love  ul{
@@ -232,6 +240,11 @@ header .header-right{
 	border-radius: 3px;
 }
 
+.body-right em{
+	font-size: 13px;
+	margin-top:20px;
+}
+
 /*body-bottom*/
 .body-bottom{
 	width:100%;
@@ -256,7 +269,14 @@ footer{
 	margin-top:50px;
 }
 
-.footer-link{
+.footer-author{
+	height: 400px;
+	background: #E5E2DE none repeat;
+	padding-bottom: 40px;
+	padding-top:40px;
+}
+
+.footer-author .author-content{
 	width:1170px;
 	height:auto;
 	margin: 0 auto;
@@ -264,8 +284,8 @@ footer{
 }
 
 .footer-block{
-	width:100%;
-	margin-bottom:10px;
+	width: 100%;
+	margin:10px auto;
 	float:left;	
 	background:transparent;
 }
@@ -280,6 +300,7 @@ footer{
 	width:1170px;
 	margin: 0 auto;
 	text-align:center;
+	padding-bottom: 100px;
 }
 .footer-logo p{
 	font-size:12px;
@@ -315,8 +336,7 @@ footer{
 	padding:10px 19px 10px 19px;
 	margin-left:10px;
 }
-
-label{
-	font-size:14px;
-	font-weight:normal;
+.link{
+	text-decoration:none;
+	color: #197499;
 }
