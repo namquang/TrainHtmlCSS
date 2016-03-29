@@ -1,11 +1,3 @@
-*{
-	margin:0;
-	padding:0;
-	outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
 
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -38,6 +30,7 @@ em{
 	line-height: 20px;
 	color: #999;
 }
+
 h3{
 	font-family: inherit;
 	color:#222;
@@ -265,19 +258,23 @@ footer{
 
 .footer-link{
 	width:1170px;
+	height:auto;
 	margin: 0 auto;
+	background: #E5E2DE;
 }
 
 .footer-block{
 	width:100%;
 	margin-bottom:10px;
 	float:left;	
+	background:transparent;
 }
 
 .span{
 	width:33%;
 	float:left;
 	font-size:14px;
+	background:transparent;
 }
 .footer-logo{
 	width:1170px;
