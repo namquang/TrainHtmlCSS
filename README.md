@@ -1,11 +1,13 @@
 # Mezzanine Clone UI
 
 	Mezzanine Clone UI is an clone of  [Mezzanine](http://mezzanine.jupo.org/). This project helps you understand more about Html and Css.
+***
 
 ## Installation
 
 1. Checkout from https://github.com/namquang/TrainHtmlCSS.git
 2. Go to TrainHtmlCSS folder double click index.html to run it
+***
 
 ## Contributing
 
@@ -30,12 +32,12 @@
   ```
 	$ git push origin branch
   ```
-
+***
 ## History
 
 I will update file History.md later.
 
-
+***
 ## License
 
 Mezzanine is BSD Licensed. It can be freely used, modified, and redistributed commercially. 
