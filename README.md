@@ -14,23 +14,26 @@ TODO: Describe the installation process
 ## Contributing
 
 1. Create your feature branch git:
-  
+  ```
 	$ git clone https://github.com/namquang/TrainHtmlCSS.git
     $ cd TrainHtmlCSS
     $ git checkout -b your-new-branch-name
+  ```
 	
 2. Add any file changed git add file-name
-  
+  ```
 	$ git add <file-name>
+  ```
 	
 3. Commit your change git commit -m "Update file-name"
-  
+  ```
 	$ git commit -m "Your message"
+  ```
 	
 4. Push your feature branch to server git push origin your-feature-name
-  
+  ```
 	$ git push origin <branch>
-
+  ```
 
 ## History
 
