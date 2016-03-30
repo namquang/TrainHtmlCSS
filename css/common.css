@@ -50,6 +50,7 @@ label{
 .right {
 	float:right;
 }
+
 .btn{
 	border-radius: 3px;
 	background: #BD362F;
@@ -79,7 +80,17 @@ label{
 	padding:10px 19px 10px 19px;
 	margin-left:10px;
 }
+
 .link{
 	text-decoration:none;
 	color: #197499;
+}
+
+.icon{
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.icon:hover { 
+	opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
