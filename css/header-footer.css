@@ -1,0 +1,78 @@
+/* cont site header */
+
+/*top bar*/
+.topbar{
+	height: 40px;
+	background: #E5E2DE none repeat;
+}
+
+header .header-left{
+	width: 60em;
+}
+
+header .header-right{
+	margin-left:6em ;
+	width: 19em;
+}
+
+.header-left .header-left-content{
+	width: 47em;
+	margin-left:30px;
+}
+
+.header-right .header-right-group-bt{
+	margin-top:50px;
+}
+
+.header-right .login{
+	font-weight:bold;
+	font-size:1em;
+	border-radius: 3px;
+	margin-top:30px;
+	background: #E5E2DE;
+	color:black;
+	padding: 14px 45px 14px 45px;
+}
+
+/*footer*/
+footer{
+	width:100%;
+	display:inline-block;
+	margin-top:50px;
+}
+
+.footer-author{
+	height: 29em;
+	background: #E5E2DE none repeat;
+	padding: 40px 0px;
+}
+
+.footer-author .author-content{
+	width:85em;
+	height:auto;
+	margin: 0px auto;
+	background: #E5E2DE;
+}
+
+.footer-block{
+	margin:10px auto;
+	float:left;	
+	background:transparent;
+}
+
+.span{
+	width:33%;
+	float:left;
+	font-size:14px;
+	background:transparent;
+}
+.footer-logo{
+	margin: 0 auto;
+	text-align:center;
+	padding-bottom: 100px;
+}
+.footer-logo p{
+	font-size:12px;
+	margin:50px 0;
+}
+/* common define*/
