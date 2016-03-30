@@ -155,6 +155,7 @@
 			border-radius: 3px;
 			-moz-border-radius: 3px;
 			-webkit-border-radius: 3px;
+			vertical-align: middle;
 		}
 
 	.body-right em{
@@ -177,4 +178,11 @@
 		width:20%;
 		float:left;
 	}
+
+.forkme-right{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 0px none;
+}
 
