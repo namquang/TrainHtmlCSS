@@ -134,6 +134,7 @@
 		}
 
 		.body-right-content .unstyle a {
+            margin-top: 10px;
 			font-size:16px;
 			font-weight:bold;
 			text-transform: uppercase;
@@ -144,10 +145,12 @@
 		
 		.body-right-content .unstyle a:hover{
 			text-decoration:underline;
+			
 		}
 		
 		.body-right-content .unstyle img {
 			padding:7px;
+			margin-right:5px;
 			background: #BD362F;
 			border-radius: 3px;
 			-moz-border-radius: 3px;
