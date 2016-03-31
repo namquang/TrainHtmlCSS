@@ -80,10 +80,11 @@
 			position: absolute;
 			left: 48%;
 			top: 205px;
+			color: #999;
+			font-style: italic
 		}
 	/* body-left-love*/
 	.body-left .body-left-love{
-		width:100%;
 		margin:20px 0px;
 	}
 
