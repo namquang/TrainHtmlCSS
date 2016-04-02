@@ -19,17 +19,17 @@ Mezzanine Clone UI is a clone of [Mezzanine](http://mezzanine.jupo.org/). This p
 	$ cd TrainHtmlCSS
 	$ git checkout -b your-new-branch-name
 ```
-2. Add any file changed git add file-name
+2. Add any file changed: "git add file-name":
 ```
 	$ git add <file-name>
 
 ```
-3. Commit your change git commit -m "Update file-name"
+3. Commit your change "git commit -m message":
 ```
 	$ git commit -m "Your message"
 
 ```
-4. Push your feature branch to server git push origin your-feature-name
+4. Push your feature branch to server "git push origin your-new-branch-name"
 ```
 	$ git push origin <branch>
 

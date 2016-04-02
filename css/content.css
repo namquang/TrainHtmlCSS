@@ -18,18 +18,28 @@
 
 /* cont site body */
 .content-site-body{
-	margin-top:55px;
+    border-top-style: solid;
+    border-top-width: 3px;
+	float:left;
+	margin-top:50px;
+	padding-top:20px;
 }
 
 	/* body content left */
 	.content-site-body .body-left{
 		width:59em;
 	}
-
-		.body-left .body-left-overview{
-			margin-bottom: 20px;
+	
+	/* Overview */
+	.body-left .body-left-overview{
+		margin-bottom: 20px;
+	}
+	
+		.body-left-overview p{
+			margin-top: 20px;
 		}
-
+		
+	/*Featured Sites*/
 	.body-left .feature-content{
 		width:100%;
 		border-radius: 8px;
@@ -45,31 +55,42 @@
 			margin:16px;
 			box-shadow: -4px -4px  4px -4px #000;
 		}
-
-		.feature-content .arrow-left{
+		
+		/*arrow of carousel*/
+		.feature-content .arrow-carousel{
+			border: 3px solid #ffffff;
+			color: #ffffff;
 			border-radius: 100px;
 			-moz-border-radius: 100px;
 			-webkit-border-radius: 100px;
-			background:  rgba(200, 54, 54, 0.5);
+			background:  #197499 none repeat scroll 0 0;
+			font-size: 60px;
+			font-weight: 100;
+			opacity: 0.5;
 			top:90px;
-			left: 15px;
+			line-height:30px;
 			position: absolute;
 			margin:5px 5px 5px 5px;
-			width: 3rem;
-			height: 3rem;
-			font-family: serif;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			text-decoration:none;
+			vertical-align: middle;
 		}
-
-		.feature-content .arrow-right{
-			border-radius: 100px;
-			background:  rgba(200, 54, 54, 0.5);
-			top:90px;
-			right: 15px;
-			position: absolute;
-			margin:5px 5px 5px 5px;
-			width: 3rem;
-			height: 3rem;
+		/*hover arrow of carousel*/
+		.feature-content .arrow-carousel:hover{
+			opacity: 0.9;
 		}
+		
+			.arrow-carousel .arowright{
+				right:15px;
+				left:auto;
+			}
+			.arrow-carousel .arowleft{
+				right:auto;
+				left:15px;
+			}
+			
 
 		.feature-content .image-groupt{
 			margin:0 auto;
@@ -80,10 +101,13 @@
 			position: absolute;
 			left: 48%;
 			top: 205px;
+			color: #999;
+			font-style: italic
 		}
+		
 	/* body-left-love*/
+	/*Users love and Developer Love*/
 	.body-left .body-left-love{
-		width:100%;
 		margin:20px 0px;
 	}
 
@@ -107,11 +131,11 @@
 }
 
 	.body-right .body-right-content{
-		border-radius: 10px;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
 		background: #E5E2DE;
-		padding:20px 0px 5px 0px;
+		padding:20px 0px 1px 0px;
 	}
 
 		.body-right-content .board-black{
@@ -119,14 +143,14 @@
 			color:#08c;
 			border-radius: 3px;
 			font-size:12px;
-			padding:10px;
+			padding:10px 10px 20px 10px;
 			margin:0px 12px;
 			line-height:20px;
 		}
-
+		
 		.body-right-content .unstyle{
 			list-style:none;
-			margin:10px 0px 20px 15px ;
+			margin:25px 15px ;
 		}
 
 		.body-right-content .unstyle li{
@@ -159,26 +183,31 @@
 		}
 
 	.body-right em{
-		font-size: 13px;
-		margin-top:20px;
+		font-size: 12px;
+		margin-top:15px;
+		font-style:italic;
 	}
 
 /*body-bottom*/
+/*Recent Mentions*/
 .content-site-body  .body-bottom{
 	display:inline-block;
 	float:left;
 }
 
 	.body-bottom .community-block{
-		width:20%;
+		width:17.5em;
 		float:left;
-		margin-left:5%;
+		margin-left:4.5em;
+		margin-top:10px;
 	}
 	.body-bottom .community-block-first{
-		width:20%;
+		width:17.5em;
 		float:left;
+		margin-top:10px;
 	}
-
+	
+/* image forkme in right-top screen */
 .forkme-right{
 	position: absolute;
 	top: 0px;

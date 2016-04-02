@@ -6,6 +6,10 @@
 	background: #E5E2DE none repeat;
 }
 
+header{
+	margin-top:55px;
+}
+
 header .header-left{
 	width: 60em;
 }
@@ -44,7 +48,7 @@ footer{
 	.footer-author{
 		height: 29em;
 		background: #E5E2DE none repeat;
-		padding: 40px 0px;
+		padding: 30px 0px;
 	}
 
 		.footer-author .author-content{
@@ -58,14 +62,22 @@ footer{
 		margin:10px auto;
 		float:left;	
 		background:transparent;
+		display:table;
 	}
+		.footer-block em{
+			font-size:14px;
+		}
 
 	.span{
-		width:33%;
+		width:27em;
 		float:left;
 		font-size:14px;
 		background:transparent;
 	}
+		.span .date-mention{
+			font-size:14px;
+			font-style:italic;
+		}
 	.footer-logo{
 		margin: 0 auto;
 		text-align:center;

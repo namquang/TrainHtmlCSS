@@ -76,21 +76,36 @@ label{
 	text-transform: uppercase;
 }
 
+.btn-gratipay{
+	border-radius: 3pt;
+    font: 9pt/9pt "Lato",sans-serif;
+    padding: 2pt 5pt 2.5pt;
+	color:white;
+	text-decoration: none;
+    vertical-align: middle;
+    width: auto;
+	background: #2a8f79 repeat-x scroll left bottom;
+    border: 1px solid #0a382e
+}
+
 .btn-download{
 	padding:10px 19px 10px 19px;
-	margin-left:10px;
+	margin-left:7px;
 }
 
 .link{
 	text-decoration:none;
 	color: #197499;
 }
+.link:hover{
+	text-decoration:underline;
+}
 
 .icon{
 	opacity: 0.4;
-	filter: alpha(opacity=40); /* For IE8 and earlier */
+	filter: alpha(opacity=40);
 }
 .icon:hover { 
 	opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+    filter: alpha(opacity=100);
 }
