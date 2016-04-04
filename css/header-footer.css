@@ -2,91 +2,94 @@
 
 /*top bar*/
 .topbar{
-	height: 40px;
-	background: #E5E2DE none repeat;
+    height: 40px;
+    background: #E5E2DE none repeat;
 }
 
 header{
-	margin-top:55px;
-	float: left;
+    margin-top:55px;
+    float: left;
 }
 
 header .logo-content-header{
-	width: 60em;
+    width: 60em;
 }
 
 header .header-right{
-	margin-left:6em ;
-	width: 19em;
+    margin-left: 6em ;
+    width: 19em;
 }
 
-	.logo-content-header .content{
-		width: 47em;
-		margin-left:30px;
-	}
+    .logo-content-header .content{
+        width: 47em;
+        margin-left:30px;
+    }
 
-	.header-right .header-right-group-bt{
-		margin-top:50px;
-	}
+    .header-right .header-right-group-bt{
+        margin-top:50px;
+    }
 
-	.header-right .login{
-		font-weight:bold;
-		font-size:1em;
-		border-radius: 3px;
-		margin-top:30px;
-		background: #E5E2DE;
-		color:black;
-		padding: 14px 45px 14px 45px;
-	}
+    .header-right .login{
+        font-weight: bold;
+        font-size: 1em;
+        border-radius: 3px;
+        margin-top: 30px;
+        background: #E5E2DE;
+        color: black;
+        padding: 14px 45px 14px 45px;
+    }
 
 /*footer*/
 footer{
-	width:100%;
-	display:inline-block;
-	margin-top:50px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
 }
 
-	.footer-author{
-		height: 29em;
-		background: #E5E2DE none repeat;
-		padding: 30px 0px;
-	}
+    .footer-author{
+        height: 28em;
+        background: #E5E2DE none repeat;
+        padding: 30px 0px;
+    }
 
-	.footer-author .author-content{
-		width:85em;
-		height:auto;
-		margin: 0px auto;
-		background: #E5E2DE;
-	}
+    .footer-author .author-content{
+        width:85em;
+        height:auto;
+        margin: 0px auto;
+        background: #E5E2DE;
+    }
 
-	.footer-block{
-		margin:10px auto;
-		float:left;	
-		background:transparent;
-		display:table;
-	}
+    .footer-block{
+        margin: 10px auto;
+        float: left;    
+        background: transparent;
+        display: table;
+    }
 
-	.footer-block em{
-		font-size:14px;
-	}
+    .footer-block em{
+        font-size:14px;
+    }
 
-	.span-mentions{
-		width:27em;
-		float:left;
-		font-size:14px;
-		background:transparent;
-	}
-	.span-mentions .date-mention{
-		font-size:14px;
-		font-style:italic;
-	}
-	.footer-logo{
-		margin: 0 auto;
-		text-align:center;
-		padding-bottom: 100px;
-	}
-	.footer-logo p{
-		font-size:12px;
-		margin:50px 0;
-	}
+    .span-mentions{
+        width:27em;
+        float:left;
+        font-size:14px;
+        background:transparent;
+    }
+    .span-mentions .date-mention{
+        font-size:14px;
+        font-style:italic;
+    }
+
+    .footer-logo{
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 100px;
+    }
+
+    .footer-logo p{
+        font-size:12px;
+        margin:50px 0;
+    }
+
 /* common define*/

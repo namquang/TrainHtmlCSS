@@ -7,12 +7,12 @@ body{
 }
 
 h2{
-	font-family: inherit;
-	font-size: 22px;
-	line-height: 24px;
-	color: #BD362F;
-	text-transform: uppercase;
-	margin: 30px 25px 10px 0px;
+    font-family: inherit;
+    font-size: 22px;
+    line-height: 24px;
+    color: #BD362F;
+    text-transform: uppercase;
+    margin: 30px 25px 10px 0px;
 }
 
 p, li {
@@ -21,92 +21,92 @@ p, li {
 }
 
 em{
-	display: block;
-	margin: 5px 0px;
-	text-indent: 3px;
-	font-size: 16px;
-	font-family: georgia,serif;
-	line-height: 20px;
-	color: #999;
+    display: block;
+    margin: 5px 0px;
+    text-indent: 3px;
+    font-size: 16px;
+    font-family: georgia,serif;
+    line-height: 20px;
+    color: #999;
 }
 
 h3{
-	font-family: inherit;
-	color:#222;
-	font-size:17.5px;
-	text-transform: uppercase;
-	padding: 70px 25px 20px 65px;
+    font-family: inherit;
+    color:#222;
+    font-size:17.5px;
+    text-transform: uppercase;
+    padding: 70px 25px 20px 65px;
 }
 
 label{
-	font-size:14px;
-	font-weight:normal;
+    font-size:14px;
+    font-weight:normal;
 }
 
 .left {
-	float:left;
+    float:left;
 }
 
 .right {
-	float:right;
+    float:right;
 }
 
 .btn{
-	border-radius: 3px;
-	background: #BD362F;
-	text-decoration:none;
+    border-radius: 3px;
+    background: #BD362F;
+    text-decoration:none;
 }
 
 .btn-large{
-	padding:14px 19px 14px 19px;
-	text-transform: uppercase;
-	font-family: inherit;
-	font-size: 17.5px;
-	font-weight: bold;
-	color: white;
-	box-shadow: 0 -4px  4px -4px #000;
+    padding:14px 19px 14px 19px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 17.5px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 -4px  4px -4px #000;
 }
 
 .btn-small{
-	margin-top: 20px;
-	padding:5px 15px 5px 15px;
-	color: white;
-	font-size: 16px;
-	font-weight: bold;
-	box-shadow: 0 -4px  4px -4px #000;
-	text-transform: uppercase;
+    margin-top: 20px;
+    padding:5px 15px 5px 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 -4px  4px -4px #000;
+    text-transform: uppercase;
 }
 
 .btn-gratipay{
-	border-radius: 3pt;
+    border-radius: 3pt;
     font: 9pt/9pt "Lato",sans-serif;
     padding: 2pt 5pt 2.5pt;
-	color:white;
-	text-decoration: none;
+    color:white;
+    text-decoration: none;
     vertical-align: middle;
     width: auto;
-	background: #2a8f79 repeat-x scroll left bottom;
+    background: #2a8f79 repeat-x scroll left bottom;
     border: 1px solid #0a382e
 }
 
 .btn-download{
-	padding:10px 19px 10px 19px;
-	margin-left:7px;
+    padding:10px 19px 10px 19px;
+    margin-left:7px;
 }
 
 .link{
-	text-decoration:none;
-	color: #197499;
+    text-decoration:none;
+    color: #197499;
 }
 .link:hover{
-	text-decoration:underline;
+    text-decoration:underline;
 }
 
 .icon{
-	opacity: 0.4;
-	filter: alpha(opacity=40);
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }
 .icon:hover { 
-	opacity: 1.0;
+    opacity: 1.0;
     filter: alpha(opacity=100);
 }
