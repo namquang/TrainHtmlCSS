@@ -7,7 +7,7 @@
 }
 
 header{
-	margin-top:55px;
+	margin-top: 55px;
 }
 
 header .header-left{
@@ -15,7 +15,7 @@ header .header-left{
 }
 
 header .header-right{
-	margin-left:6em ;
+	margin-left: 6em ;
 	width: 19em;
 }
 
@@ -29,20 +29,20 @@ header .header-right{
 	}
 
 	.header-right .login{
-		font-weight:bold;
-		font-size:1em;
+		font-weight: bold;
+		font-size: 1em;
 		border-radius: 3px;
-		margin-top:30px;
+		margin-top: 30px;
 		background: #E5E2DE;
-		color:black;
+		color: black;
 		padding: 14px 45px 14px 45px;
 	}
 
 /*footer*/
 footer{
-	width:100%;
-	display:inline-block;
-	margin-top:50px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 50px;
 }
 
 	.footer-author{
@@ -52,32 +52,32 @@ footer{
 	}
 
 		.footer-author .author-content{
-			width:85em;
-			height:auto;
+			width: 85em;
+			height: auto;
 			margin: 0px auto;
 			background: #E5E2DE;
 		}
 
 	.footer-block{
-		margin:10px auto;
-		float:left;	
-		background:transparent;
-		display:table;
+		margin: 10px auto;
+		float: left;	
+		background: transparent;
+		display: table;
 	}
 		.footer-block em{
-			font-size:14px;
+			font-size: 14px;
 		}
 
 	.span{
-		width:27em;
-		float:left;
-		font-size:14px;
-		background:transparent;
+		width: 27em;
+		float: left;
+		font-size: 14px;
+		background: transparent;
 	}
 
 		.span .date-mention{
-			font-size:14px;
-			font-style:italic;
+			font-size: 14px;
+			font-style: italic;
 		}
 
 	.footer-logo{
@@ -86,7 +86,7 @@ footer{
 		padding-bottom: 100px;
 	}
 		.footer-logo p{
-			font-size:12px;
-			margin:50px 0;
+			font-size: 12px;
+			margin: 50px 0;
 		}
 /* common define*/
