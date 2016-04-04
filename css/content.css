@@ -25,19 +25,19 @@
 	padding-top:20px;
 }
 
-	/* body content left */
-	.content-site-body .body-left{
-		width:59em;
-	}
+/* body content left */
+.content-site-body .body-left{
+	width:59em;
+}
 	
 	/* Overview */
-	.body-left .body-left-overview{
+	.body-left .body-overview{
 		margin-bottom: 20px;
 	}
 	
-		.body-left-overview p{
-			margin-top: 20px;
-		}
+	.body-overview p{
+		margin-top: 20px;
+	}
 		
 	/*Featured Sites*/
 	.body-left .feature-content{
@@ -97,7 +97,7 @@
 			width:85%;
 		}
 
-		.feature-content .viewall{
+		.feature-content .view-all{
 			position: absolute;
 			left: 48%;
 			top: 205px;
@@ -107,16 +107,16 @@
 		
 	/* body-left-love*/
 	/*Users love and Developer Love*/
-	.body-left .body-left-love{
+	.body-left .body-love{
 		margin:20px 0px;
 	}
 
-		.body-left-love .list-love  ul{
+		.body-love .list-love  ul{
 			list-style-type: square;
 			margin-top:20px;
 		}
 
-		.body-left-love .list-love  li{
+		.body-love .list-love  li{
 			 height : 25px;
 			 font-size:13.5px;
 			 margin-left:15px;
@@ -124,13 +124,13 @@
 
 
 /* body content right */
-.content-site-body .body-right{
+.content-site-body .sidebar{
 	width:19em;
 	padding-left:7em;
 	margin-top:20px;
 }
 
-	.body-right .body-right-content{
+	.sidebar .sidebar-content{
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
@@ -138,7 +138,7 @@
 		padding:20px 0px 1px 0px;
 	}
 
-		.body-right-content .board-black{
+		.sidebar-content .board-black{
 			background:#222 none repeat scroll 0 0;
 			color:#08c;
 			border-radius: 3px;
@@ -148,16 +148,16 @@
 			line-height:20px;
 		}
 		
-		.body-right-content .unstyle{
+		.sidebar-content .unstyle{
 			list-style:none;
 			margin:25px 15px ;
 		}
 
-		.body-right-content .unstyle li{
+		.sidebar-content .unstyle li{
 			height:50px;
 		}
 
-		.body-right-content .unstyle a {
+		.sidebar-content .unstyle a {
             margin-top: 10px;
 			font-size:16px;
 			font-weight:bold;
@@ -167,12 +167,12 @@
 			text-decoration:none;
 		}
 		
-		.body-right-content .unstyle a:hover{
+		.sidebar-content .unstyle a:hover{
 			text-decoration:underline;
 			
 		}
 		
-		.body-right-content .unstyle img {
+		.sidebar-content .unstyle img {
 			padding:7px;
 			margin-right:5px;
 			background: #BD362F;
@@ -182,7 +182,7 @@
 			vertical-align: middle;
 		}
 
-	.body-right em{
+	.sidebar em{
 		font-size: 12px;
 		margin-top:15px;
 		font-style:italic;
@@ -190,18 +190,18 @@
 
 /*body-bottom*/
 /*Recent Mentions*/
-.content-site-body  .body-bottom{
+.content-site-body  .community-blogs{
 	display:inline-block;
 	float:left;
 }
 
-	.body-bottom .community-block{
+	.community-blogs .community-block{
 		width:17.5em;
 		float:left;
 		margin-left:4.5em;
 		margin-top:10px;
 	}
-	.body-bottom .community-block-first{
+	.community-blogs .community-block-first{
 		width:17.5em;
 		float:left;
 		margin-top:10px;

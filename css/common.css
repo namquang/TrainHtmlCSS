@@ -54,6 +54,7 @@ label{
 .btn{
 	border-radius: 3px;
 	background: #BD362F;
+	text-decoration:none;
 }
 
 .btn-large{
