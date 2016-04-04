@@ -74,12 +74,12 @@ footer{
 		font-size:14px;
 		background:transparent;
 	}
-	
-	.span .date-format{
-		font-size:14px;
-		font-style:italic;
-	}
-	
+
+		.span .date-mention{
+			font-size:14px;
+			font-style:italic;
+		}
+
 	.footer-logo{
 		margin: 0 auto;
 		text-align:center;
